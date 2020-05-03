@@ -1,16 +1,5 @@
 
-
-
-// self.addEventListener("install", (e) => {
-//   console.log("installing", e);
-// });
-
-
-// self.addEventListener("fetch", (e) => {
-//   console.log("fetch", e);
-// });
-
-var cacheName = 'app-v1';
+var cacheName = 'app';
 const assets = [
  "./project4.html",
 "https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.css",
